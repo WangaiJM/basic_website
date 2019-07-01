@@ -5,7 +5,6 @@
         </div>
     @endforeach
 @endif
-@yield('content')
 
 @if(session('success'))
     <div class="alert alert-success">

@@ -2,7 +2,7 @@
 
 @section('content')
     <h1>Contact</h1>
-    <form action="/submit" method="POST">
+    <form action="/message" method="POST">
         @csrf
         <div class="form-group">
             <label for="name">Name</label>
