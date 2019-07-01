@@ -17,7 +17,7 @@
         @endif
         <div class="row mt-3">
             <div class="col-md-8 col-lg-8">
-                @yield('content')
+                @include('inc.messages')
             </div>
 
             <div class="col-md-4 col-lg-4">
@@ -29,5 +29,5 @@
     <footer id="footer" class="text-center">
         <p>Copyright 2019 &copy; Basic Website</p>
     </footer>
-</body>
+ </body>
 </html>
